@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactDOM from'react-dom';
 // const heading = React.createElement("h1", {id:"heading"}, "Hello Sheetal from React");
 const heading = React.createElement(
   "div",
@@ -8,7 +10,7 @@ const heading = React.createElement(
   ])
 );
 
-console.log(heading); //object
+// console.log(heading); //object
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
